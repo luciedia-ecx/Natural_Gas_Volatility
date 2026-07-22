@@ -25,7 +25,7 @@ def load_seds():
     ng = prices.loc[boolean_filter, :].copy()
     ng['sector'] = ng['msn'].replace(ng_codes)
 
-    us_states = ['AL','AK','AZ','AR','CA','CO','CT','DE','DC','FL','GA','HI','ID','IL','IN','IA',
+    us_states = ['AL','AZ','AR','CA','CO','CT','DE','DC','FL','GA','HI','ID','IL','IN','IA',
                  'KS','KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NM',
                  'NY','NC','ND','OH','OK','OR','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA',
                  'WV','WI','WY']
